@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="FR">
+    <head>
+      <link rel="stylesheet" href="catalogue.css">
+      <meta charset="UTF-8">
+      <title>Catalogue</title>
+    </head>
+    <body>
+		<img id  = 'background' src = 'fond-livre.jpg'>
+
+
+
+
+		<div id = 'filtre' class= 'box'>
+			<div id ='back-button' class = 'box'>
+				<a href = 'catalogue.html'><img src = 'fleche.png'></a>
+			</div>
+			<h1>Filtrer</h1>
+			<hr>
+			<ul>
+				<li><input type="checkbox" name='filtre-0' onchange="window.location.href='catalogue.html'"><label for='filtre-0'>Tous les articles</label></li>
+			    <li><input type="checkbox" name='filtre-1' onchange="window.location.href='catalogue-filtre1.html'" ><label for='filtre-1'>Futuriste</li>
+				<li><input type="checkbox" name='filtre-2' onchange="window.location.href='catalogue-filtre2.html'" ><label for='filtre-2'>Dystopie</li>
+				<li><input type="checkbox" name='filtre-3' onchange="window.location.href='catalogue.html'" checked><label for='filtre-3'>Thriller</li>
+			</ul>
+		</div>
+
+		<div id='top-menu' class='box'>
+			<div id='titre'>
+				<div id='titre1'>
+					<h1>STEAMPUNK</h1>
+				</div>
+				<div id='titre2'>
+					<h3>Librairie</h3>
+				</div>
+			</div>
+			<span id = 'cat-header'>
+				<a class = 'cat-button' href = '../contact/contact.html'>CONTACT</a>
+				<a class = 'cat-button' href = 'blog.html'>BLOG</a>
+				<a class = 'cat-button' href = '../expo/expo.html'>EXPOSITION</a>
+				<a class = 'cat-button' href = '../catalogue/catalogue.html'>CATALOGUE</a>
+				<a class = 'cat-button' href = '../index.html'>ACCUEIL</a>
+			</span>
+		</div>
+
+
+		<div id = 'catalogue' class = 'box'>
+			<div class = 'box article' id = 'livre-1'>
+				<a href = 'description-livre.html'><img class = 'livre' src = 'Institut-StephenKing.jpg'></a>
+			</div>
+			<p class = 'titre-livre' id = 't-livre-1' ><strong>L'Institut - Stephen King</strong><br> - <br> 29 janvier 2020 - (broché)</p>
+
+			<div class = 'box article' id = 'livre-2'>
+				<a href = 'description-livre5.html'><img class = 'livre' src = 'derniere-etoile.jpg'></a>
+			</div>
+			<p class = 'titre-livre' id = 't-livre-2' ><strong>La Dernière Étoile - Fabien Tarlet</strong><br> - <br> 12 avril 2018 - (broché)</p>
+		   </div>
+
+
+	</body>
+	</html>
